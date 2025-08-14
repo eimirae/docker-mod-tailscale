@@ -28,7 +28,7 @@ if [ -v TAILSCALE_LOGIN_SERVER ]; then
 fi
 
 tailscale up $FLAGS
-
+#
 # configure serve or funnel
 if [ -v TAILSCALE_SERVE_PORT ] && [ -v TAILSCALE_SERVE_MODE ]; then
 
